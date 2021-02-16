@@ -12,4 +12,3 @@ def driver(request):
 
 def test_1(driver):
     driver.get("http://www.google.com/")
-    driver.close()
